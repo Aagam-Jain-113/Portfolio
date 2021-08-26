@@ -1,57 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Aagam Jain</title>
-    </head>
-    <body>
-        <h1>Aagam Jain</h1>
-        <p>I am currently pursuing final year of B.tech</p>
-        <hr />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Aagam Jain</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Aagam Jain</h1>
 
-        <!-- Links -->
+    <div class="para">
+        <p class="container">I am currently pursuing final year of B.tech</p>
+    </div>
+    <hr />
 
-        <div>
-            <h2>Links</h2>
-            <a href="https://google.com" target="_blank">Google</a>
-            <a href="/">Link</a>
-            <a href="#">Link</a>
-        </div>
-
-        <!-- Lists -->
-
-        <hr>
-        <h2>Lists</h2>
-        <ol>
-            <li>College Classes</li>
-            <li>Guitar classes</li>
-            <li>Web dev bootcamp</li>
-        </ol>
-        <ul>
-            <li>College Classes</li>
-            <li>Guitar classes</li>
-            <li>Web dev bootcamp <span>Classes</span></li>
+    <nav>
+        <p class="navbar">Navbar</p>
+        <ul class="list-non-bullet">
+          <a href="#"><li>Home</li></a>
+          <a href="./skills.html"> <li>Skills</li></a>
+          <a href="#list"> <li>About</li> </a>
+          <li>Contact US</li>
         </ul>
-        <hr>
-        <img src="./images/webd.svg" alt="web development" />
-        <hr>
-        <nav>
-            <p>Navbar</p>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact US</li>
-            </ul>
-        </nav>
-        <hr>
-        <footer>
-            <p>Footer</p>
-            <ul>
-                <li><strong>Home</strong></li>
-                <li><em>About</em></li>
-                <li>Contact US</li>
-            </ul>
-        </footer>
-    </body>
+    </nav>
+
+    <!-- Links -->
+
+    <div class="container">
+      <h2>Links</h2>
+      <a href="https://google.com" target="_blank">Google</a>
+      <a href="/">Link</a>
+      <a style="color:white" href="#">Link</a>
+      <h1>Example type</h1>
+      <h2>Sample</h2>
+    </div>
+
+    <!-- Lists -->
+
+    <hr />
+    <h2 class="container"  id="list">Lists</h2>
+    <ol>
+      <li>College Classes</li>
+      <li>Guitar classes</li>
+      <li>Web dev bootcamp</li>
+    </ol>
+    <ul class="list-non-bullet">
+      <li>College Classes</li>
+      <li>Guitar classes</li>
+      <li>Web dev bootcamp <span>Classes</span></li>
+    </ul>
+    <hr />
+    <img src="./images/webd.svg" alt="web development" />
+    <hr />
+    
+    <hr />
+    <form>
+      <input type="tel" placeholder="Type here" />
+    </form>
+    <button>CLICK Here!</button>
+
+    <footer>
+      <p>Footer</p>
+      <ul>
+        <li><strong>Home</strong></li>
+        <li><em>About</em></li>
+        <li>Contact US</li>
+      </ul>
+    </footer>
+  </body>
 </html>
